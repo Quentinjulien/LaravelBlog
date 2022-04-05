@@ -28,8 +28,8 @@
             </header>
 
             <!-- Page Content -->
-            <main>
-                {{ $slot }}
+            <main class="container col-md-8 py-4">
+                @yield('content')
             </main>
         </div>
     </body>
