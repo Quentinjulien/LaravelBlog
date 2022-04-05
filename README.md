@@ -12,6 +12,8 @@ cd example-app
 ./vendor/bin/sail up
 ```
 
+## Ajout du code
+
 On créer ensuite les modèles :
 ```bash
 sail php artisan make:model Post -mc     # migration et controller
