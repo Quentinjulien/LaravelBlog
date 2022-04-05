@@ -1,4 +1,4 @@
-# TP de Quentin JULIEN, Guillaume & Alban
+# TP de Quentin JULIEN, Guillaume FARRUGIA & Alban Roulland
 
 ## Installation de Laravel via Docker
 
