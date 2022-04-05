@@ -12,16 +12,16 @@ cd example-app
 ./vendor/bin/sail up
 ```
 
-## Ajout du code
+## On a créer un repertoire Github Partagé entre les membres de l'équipe
 
-On créer ensuite les modèles :
+Le repertoire est un répertoires publique et j'ai ajouté Alban et Guillaume en temps que Collaborateurs du projets et ensuite, il ont juste eu besoin de faire :
 ```bash
-sail php artisan make:model Post -mc     # migration et controller
-sail php artisan make:model Comment -mc
-sail php artisan make:model Reply -mc
+git clone https://github.com/Quentinjulien/LaravelBlog.git
 ```
-
-Et ensuite, **on copie le code présent sur le  Github du professeur**
+Quand il ont fait des modifications, il ont juste à faire :
+```bash
+git push origin main
+```
 
 ### Problèmes de droits
 On a rencontrée de sproblèmes de droits sur plusieurs dossier importants et après plusieurs tentative de solutions, on a décidé de faire à la racine de notre projet :
